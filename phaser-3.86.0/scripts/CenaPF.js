@@ -6,21 +6,57 @@ class CenaPF extends Phaser.Scene {
 
     preload() {
         // Substitua pelo caminho real da imagem do botão
-        this.load.image('botaoplay', '/phaser-3.86.0/src/img/conteudo/BOTÃO/playjg.png'); // Substitua pelo caminho real da imagem do botão
-        this.load.tilemapTiledJSON('mapa', '/phaser-3.86.0/map-professor-att.json');
-       this.load.image('CFS1','/phaser-3.86.0/assets/map_professor/Classroom_First_Spritesheet_1.png');
-       this.load.image('CFS6','/phaser-3.86.0/assets/map_professor/Classroom_First_Spritesheet_6.png');
-       this.load.image('CPFSc','/phaser-3.86.0/assets/map_professor/Classroom_PropsFirst_Spritesheet-cop.png');
-       this.load.image('CPSP4','/phaser-3.86.0/assets/map_professor/ClassroomPropsSecondSpritesheet4.png');
-       this.load.image('CSS7','/phaser-3.86.0/assets/map_professor/ClassroomSecondSpritesheet7.png');
-       this.load.image('CSSC','/phaser-3.86.0/assets/map_professor/ClassroomSecond_Spritesheet-cop.png');
-       this.load.image('POFS4','/phaser-3.86.0/assets/map_professor/PrincipalOfficeSecondSpritesheet4.png');
-       this.load.image('POSS4','/phaser-3.86.0/assets/map_professor/strokespritesheet20125.png');
-       this.load.image('WFD5','/phaser-3.86.0/assets/map_professor/Wallfloordoorw_First_Spritesheet_5.png');
-       this.load.image('SPS','/phaser-3.86.0/assets/map_professor/strokespritesheet20121.png');
+        this.load.image(
+            "botaoplay",
+            "./phaser-3.86.0/src/img/conteudo/BOTÃO/playjg.png"
+        ); // Substitua pelo caminho real da imagem do botão
+        this.load.tilemapTiledJSON(
+            "mapa",
+            "./phaser-3.86.0/map-professor-att.json"
+        );
+        this.load.image(
+            "CFS1",
+            "./phaser-3.86.0/assets/map_professor/Classroom_First_Spritesheet_1.png"
+        );
+        this.load.image(
+            "CFS6",
+            "./phaser-3.86.0/assets/map_professor/Classroom_First_Spritesheet_6.png"
+        );
+        this.load.image(
+            "CPFSc",
+            "./phaser-3.86.0/assets/map_professor/Classroom_PropsFirst_Spritesheet-cop.png"
+        );
+        this.load.image(
+            "CPSP4",
+            "./phaser-3.86.0/assets/map_professor/ClassroomPropsSecondSpritesheet4.png"
+        );
+        this.load.image(
+            "CSS7",
+            "./phaser-3.86.0/assets/map_professor/ClassroomSecondSpritesheet7.png"
+        );
+        this.load.image(
+            "CSSC",
+            "./phaser-3.86.0/assets/map_professor/ClassroomSecond_Spritesheet-cop.png"
+        );
+        this.load.image(
+            "POFS4",
+            "./phaser-3.86.0/assets/map_professor/PrincipalOfficeSecondSpritesheet4.png"
+        );
+        this.load.image(
+            "POSS4",
+            "./phaser-3.86.0/assets/map_professor/strokespritesheet20125.png"
+        );
+        this.load.image(
+            "WFD5",
+            "./phaser-3.86.0/assets/map_professor/Wallfloordoorw_First_Spritesheet_5.png"
+        );
+        this.load.image(
+            "SPS",
+            "./phaser-3.86.0/assets/map_professor/strokespritesheet20121.png"
+        );
         this.load.spritesheet(
             "BN",
-            "/phaser-3.86.0/src/img/conteudo/PERSONAGEM/george_0.png",
+            "./phaser-3.86.0/src/img/conteudo/PERSONAGEM/george_0.png",
             {
                 frameWidth: 92, // Largura de cada quadro
                 frameHeight: 92, // Altura de cada quadro
@@ -29,29 +65,55 @@ class CenaPF extends Phaser.Scene {
     }
 
     create() {
-        const map = this.make.tilemap({ key: 'mapa' });
+        const map = this.make.tilemap({ key: "mapa" });
 
-        const CFS1 = map.addTilesetImage('Classroom_First_Spritesheet_1', 'CFS1');
-        const CFS6 = map.addTilesetImage('Classroom_First_Spritesheet_6', 'CFS6');
-        const CPFSc = map.addTilesetImage('Classroom_PropsFirst_Spritesheet-cop', 'CPFSc');
-        const CPSP4 = map.addTilesetImage('ClassroomPropsSecondSpritesheet4', 'CPSP4');
-        const CSS7 = map.addTilesetImage('ClassroomSecondSpritesheet7', 'CSS7');
-        const CSSC = map.addTilesetImage('ClassroomSecond_Spritesheet-cop', 'CSSC');
-        const POFS4 = map.addTilesetImage('PrincipalOfficeSecondSpritesheet4', 'POFS4');
-        const SPS = map.addTilesetImage('strokespritesheet20125', 'SPS');
-        const WFD5 = map.addTilesetImage('Wallfloordoorw_First_Spritesheet_5', 'WFD5');
+        const CFS1 = map.addTilesetImage(
+            "Classroom_First_Spritesheet_1",
+            "CFS1"
+        );
+        const CFS6 = map.addTilesetImage(
+            "Classroom_First_Spritesheet_6",
+            "CFS6"
+        );
+        const CPFSc = map.addTilesetImage(
+            "Classroom_PropsFirst_Spritesheet-cop",
+            "CPFSc"
+        );
+        const CPSP4 = map.addTilesetImage(
+            "ClassroomPropsSecondSpritesheet4",
+            "CPSP4"
+        );
+        const CSS7 = map.addTilesetImage("ClassroomSecondSpritesheet7", "CSS7");
+        const CSSC = map.addTilesetImage(
+            "ClassroomSecond_Spritesheet-cop",
+            "CSSC"
+        );
+        const POFS4 = map.addTilesetImage(
+            "PrincipalOfficeSecondSpritesheet4",
+            "POFS4"
+        );
+        const SPS = map.addTilesetImage("strokespritesheet20125", "SPS");
+        const WFD5 = map.addTilesetImage(
+            "Wallfloordoorw_First_Spritesheet_5",
+            "WFD5"
+        );
 
-        const chao = map.createLayer('chao', [SPS], 0, 0);
-        const parede = map.createLayer('parede', [WFD5], 0, 0);
-        const mesas_alunos = map.createLayer('mesas-alunos', [CFS1], 0, 0);
-        const mesa_professor = map.createLayer('mesa-professor', [CFS6], 0, 0);
-        const quadro = map.createLayer('quadro', [CPFSc], 0, 0);
-        const giz = map.createLayer('giz', [CSS7], 0, 0);
-        const decoracao = map.createLayer('decoracao', [CFS1, CPSP4, CSSC], 0, 0);
+        const chao = map.createLayer("chao", [SPS], 0, 0);
+        const parede = map.createLayer("parede", [WFD5], 0, 0);
+        const mesas_alunos = map.createLayer("mesas-alunos", [CFS1], 0, 0);
+        const mesa_professor = map.createLayer("mesa-professor", [CFS6], 0, 0);
+        const quadro = map.createLayer("quadro", [CPFSc], 0, 0);
+        const giz = map.createLayer("giz", [CSS7], 0, 0);
+        const decoracao = map.createLayer(
+            "decoracao",
+            [CFS1, CPSP4, CSSC],
+            0,
+            0
+        );
         //this.add.image(400, 300, "bgC1");
 
         // Criar o personagem com física
-         this.player = this.physics.add.sprite(800, 800, "BN");
+        this.player = this.physics.add.sprite(800, 800, "BN");
         this.player.setCollideWorldBounds(true); // Impede que o personagem saia da tela
         this.player.setVelocity(0); // Inicia sem velocidade
 
@@ -63,22 +125,20 @@ class CenaPF extends Phaser.Scene {
 
         // Colisão entre o jogador e as camadas
         this.physics.add.collider(this.player, mesas_alunos);
-        this.physics.add.collider(this.player,mesa_professor);
+        this.physics.add.collider(this.player, mesa_professor);
 
-        this.physics.add.collider(this.player, parede)
+        this.physics.add.collider(this.player, parede);
         // Criar as teclas de controle
         this.cursors = this.input.keyboard.createCursorKeys();
-        const botaoplay = this.add.image(350, 50, 'botaoplay').setInteractive();
+        const botaoplay = this.add.image(350, 50, "botaoplay").setInteractive();
         botaoplay.setInteractive({ useHandCursor: true });
-botaoplay.setDepth(100); // Garante que está acima de outros elementos
-botaoplay.setPosition(460, 100);  // Define a profundidade para estar acima de outras camadas
+        botaoplay.setDepth(100); // Garante que está acima de outros elementos
+        botaoplay.setPosition(460, 100); // Define a profundidade para estar acima de outras camadas
 
         // Evento de clique para mudar de cena
-        botaoplay.on('pointerdown', () => {
-            
-            this.scene.start('Cena2');
+        botaoplay.on("pointerdown", () => {
+            this.scene.start("Cena2");
         });
-        
 
         // Animação para movimento para baixo (quadros 0, 4, 8, 12)
         this.anims.create({
