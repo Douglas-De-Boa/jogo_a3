@@ -7,10 +7,7 @@ class CenaPF extends Phaser.Scene {
     preload() {
         // Substitua pelo caminho real da imagem do botão
         this.load.image("botaoplay", "./assets/img/conteudo/BOTÃO/playjg.png"); // Substitua pelo caminho real da imagem do botão
-        this.load.tilemapTiledJSON(
-            "mapa",
-            "./phaser-3.86.0/map-professor-att.json"
-        );
+        this.load.tilemapTiledJSON("mapa", "./map-professor-att.json");
         this.load.image(
             "CFS1",
             "./phaser-3.86.0/assets/map_professor/Classroom_First_Spritesheet_1.png"

@@ -5,10 +5,7 @@ class Cena1 extends Phaser.Scene {
 
     preload() {
         this.load.image("bgC1", "./assets/img/conteudo/Background/back2.png");
-        this.load.image(
-            "bPF",
-            "./assets/img/conteudo/Background/BOTÃO/professor.png"
-        );
+        this.load.image("bPF", "./assets/img/conteudo/BOTÃO/professor.png");
     }
 
     create() {
