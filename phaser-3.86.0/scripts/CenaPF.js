@@ -6,10 +6,7 @@ class CenaPF extends Phaser.Scene {
 
     preload() {
         // Substitua pelo caminho real da imagem do botão
-        this.load.image(
-            "botaoplay",
-            "./phaser-3.86.0/src/img/conteudo/BOTÃO/playjg.png"
-        ); // Substitua pelo caminho real da imagem do botão
+        this.load.image("botaoplay", "./assets/img/conteudo/BOTÃO/playjg.png"); // Substitua pelo caminho real da imagem do botão
         this.load.tilemapTiledJSON(
             "mapa",
             "./phaser-3.86.0/map-professor-att.json"
@@ -56,7 +53,7 @@ class CenaPF extends Phaser.Scene {
         );
         this.load.spritesheet(
             "BN",
-            "./phaser-3.86.0/src/img/conteudo/PERSONAGEM/george_0.png",
+            "./assets/img/conteudo/PERSONAGEM/george_0.png",
             {
                 frameWidth: 92, // Largura de cada quadro
                 frameHeight: 92, // Altura de cada quadro

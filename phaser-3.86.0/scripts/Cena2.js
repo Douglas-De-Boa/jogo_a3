@@ -14,197 +14,188 @@ class Cena2 extends Phaser.Scene {
     preload() {
         this.load.image(
             "mostrarPalavras",
-            "/phaser-3.86.0/src/img/conteudo/Background/navbarpalavras.png"
+            "./assets/img/conteudo/Background/navbarpalavras.png"
         );
         // Substitua pelo caminho real da imagem do botão
         this.load.image(
             "areaEntrega",
-            "./phaser-3.86.0/src/img/conteudo/Background/caixapalavras.png"
+            "./assets/img/conteudo/Background/caixapalavras.png"
         );
-        this.load.image(
-            "cao",
-            "./phaser-3.86.0/src/img/conteudo/icones/cao.png"
-        );
-        this.load.image(
-            "zebra",
-            "./phaser-3.86.0/src/img/conteudo/icones/cao.png"
-        );
+        this.load.image("cao", "./assets/img/conteudo/icones/cao.png");
+        this.load.image("zebra", "./assets/img/conteudo/icones/cao.png");
         this.load.image(
             "botaoConfirmarVerde",
-            "./phaser-3.86.0/src/img/conteudo/BOTÃO/palavraCerta.png"
+            "./assets/img/conteudo/BOTÃO/palavraCerta.png"
         );
         this.load.image(
             "botaoReiniciar",
-            "./phaser-3.86.0/src/img/conteudo/BOTÃO/BotaoReiniciar.png"
+            "./assets/img/conteudo/BOTÃO/BotaoReiniciar.png"
         );
 
         this.load.image(
             "botaoApagar1Letra",
-            "./phaser-3.86.0/src/img/conteudo/BOTÃO/botaoApagar.png"
+            "./assets/img/conteudo/BOTÃO/botaoApagar.png"
         );
         this.load.image(
             "botaoConfirmarVermelho",
-            "./phaser-3.86.0/src/img/conteudo/BOTÃO/palavraErrada.png"
+            "./assets/img/conteudo/BOTÃO/palavraErrada.png"
         );
         this.load.image(
             "A",
-            "./phaser-3.86.0/src/img/conteudo/LITRTAS22/LITRTAS22/Sprite-AA2.png"
+            "./assets/img/conteudo/LITRTAS22/LITRTAS22/Sprite-AA2.png"
         );
         this.load.image(
             "B",
-            "./phaser-3.86.0/src/img/conteudo/LITRTAS22/LITRTAS22/Sprite-bb.png"
+            "./assets/img/conteudo/LITRTAS22/LITRTAS22/Sprite-bb.png"
         );
         this.load.image(
             "C",
-            "./phaser-3.86.0/src/img/conteudo/LITRTAS22/LITRTAS22/Sprite-cc2.png"
+            "./assets/img/conteudo/LITRTAS22/LITRTAS22/Sprite-cc2.png"
         );
         this.load.image(
             "D",
-            "./phaser-3.86.0/src/img/conteudo/LITRTAS22/LITRTAS22/Sprite-DD2.png"
+            "./assets/img/conteudo/LITRTAS22/LITRTAS22/Sprite-DD2.png"
         );
         this.load.image(
             "E",
-            "./phaser-3.86.0/src/img/conteudo/LITRTAS22/LITRTAS22/Sprite-EE2.png"
+            "./assets/img/conteudo/LITRTAS22/LITRTAS22/Sprite-EE2.png"
         );
         this.load.image(
             "F",
-            "./phaser-3.86.0/src/img/conteudo/LITRTAS22/LITRTAS22/Sprite-FF.png"
+            "./assets/img/conteudo/LITRTAS22/LITRTAS22/Sprite-FF.png"
         );
         this.load.image(
             "G",
-            "./phaser-3.86.0/src/img/conteudo/LITRTAS22/LITRTAS22/Sprite-GG2.png"
+            "./assets/img/conteudo/LITRTAS22/LITRTAS22/Sprite-GG2.png"
         );
         this.load.image(
             "H",
-            "./phaser-3.86.0/src/img/conteudo/LITRTAS22/LITRTAS22/Sprite-HH2.png"
+            "./assets/img/conteudo/LITRTAS22/LITRTAS22/Sprite-HH2.png"
         );
         this.load.image(
             "I",
-            "./phaser-3.86.0/src/img/conteudo/LITRTAS22/LITRTAS22/Sprite-II2.png"
+            "./assets/img/conteudo/LITRTAS22/LITRTAS22/Sprite-II2.png"
         );
         this.load.image(
             "J",
-            "./phaser-3.86.0/src/img/conteudo/LITRTAS22/LITRTAS22/Sprite-jj2.png"
+            "./assets/img/conteudo/LITRTAS22/LITRTAS22/Sprite-jj2.png"
         );
         this.load.image(
             "K",
-            "./phaser-3.86.0/src/img/conteudo/LITRTAS22/LITRTAS22/Sprite-kk.png"
+            "./assets/img/conteudo/LITRTAS22/LITRTAS22/Sprite-kk.png"
         );
         this.load.image(
             "L",
-            "./phaser-3.86.0/src/img/conteudo/LITRTAS22/LITRTAS22/Sprite-ll.png"
+            "./assets/img/conteudo/LITRTAS22/LITRTAS22/Sprite-ll.png"
         );
         this.load.image(
             "M",
-            "./phaser-3.86.0/src/img/conteudo/LITRTAS22/LITRTAS22/Sprite-M.png"
+            "./assets/img/conteudo/LITRTAS22/LITRTAS22/Sprite-M.png"
         );
         this.load.image(
             "N",
-            "./phaser-3.86.0/src/img/conteudo/LITRTAS22/LITRTAS22/Sprite-nn2.png"
+            "./assets/img/conteudo/LITRTAS22/LITRTAS22/Sprite-nn2.png"
         );
         this.load.image(
             "O",
-            "./phaser-3.86.0/src/img/conteudo/LITRTAS22/LITRTAS22/Sprite-OO2.png"
+            "./assets/img/conteudo/LITRTAS22/LITRTAS22/Sprite-OO2.png"
         );
         this.load.image(
             "P",
-            "./phaser-3.86.0/src/img/conteudo/LITRTAS22/LITRTAS22/Sprite-PP2.png"
+            "./assets/img/conteudo/LITRTAS22/LITRTAS22/Sprite-PP2.png"
         );
         this.load.image(
             "Q",
-            "./phaser-3.86.0/src/img/conteudo/LITRTAS22/LITRTAS22/Sprite-QQ2.png"
+            "./assets/img/conteudo/LITRTAS22/LITRTAS22/Sprite-QQ2.png"
         );
         this.load.image(
             "R",
-            "./phaser-3.86.0/src/img/conteudo/LITRTAS22/LITRTAS22/Sprite-RR2.png"
+            "./assets/img/conteudo/LITRTAS22/LITRTAS22/Sprite-RR2.png"
         );
         this.load.image(
             "S",
-            "./phaser-3.86.0/src/img/conteudo/LITRTAS22/LITRTAS22/Sprite-S.png"
+            "./assets/img/conteudo/LITRTAS22/LITRTAS22/Sprite-S.png"
         );
         this.load.image(
             "T",
-            "./phaser-3.86.0/src/img/conteudo/LITRTAS22/LITRTAS22/Sprite-TT2.png"
+            "./assets/img/conteudo/LITRTAS22/LITRTAS22/Sprite-TT2.png"
         );
         this.load.image(
             "U",
-            "./phaser-3.86.0/src/img/conteudo/LITRTAS22/LITRTAS22/Sprite-UU2.png"
+            "./assets/img/conteudo/LITRTAS22/LITRTAS22/Sprite-UU2.png"
         );
         this.load.image(
             "V",
-            "./phaser-3.86.0/src/img/conteudo/LITRTAS22/LITRTAS22/Sprite-VV2.png"
+            "./assets/img/conteudo/LITRTAS22/LITRTAS22/Sprite-VV2.png"
         );
         this.load.image(
             "W",
-            "./phaser-3.86.0/src/img/conteudo/LITRTAS22/LITRTAS22/Sprite-WW2.png"
+            "./assets/img/conteudo/LITRTAS22/LITRTAS22/Sprite-WW2.png"
         );
         this.load.image(
             "X",
-            "./phaser-3.86.0/src/img/conteudo/LITRTAS22/LITRTAS22/Sprite-XX2.png"
+            "./assets/img/conteudo/LITRTAS22/LITRTAS22/Sprite-XX2.png"
         );
         this.load.image(
             "Y",
-            "./phaser-3.86.0/src/img/conteudo/LITRTAS22/LITRTAS22/Sprite-YY2.png"
+            "./assets/img/conteudo/LITRTAS22/LITRTAS22/Sprite-YY2.png"
         );
         this.load.image(
             "Z",
-            "./phaser-3.86.0/src/img/conteudo/LITRTAS22/LITRTAS22/Sprite-ZZ2.png"
+            "./assets/img/conteudo/LITRTAS22/LITRTAS22/Sprite-ZZ2.png"
         );
         this.load.image(
             "botaoplay",
-            "./phaser-3.86.0/src/img/conteudo/BOTÃO/BOTÃO_PLAY.png"
+            "./assets/img/conteudo/BOTÃO/BOTÃO_PLAY.png"
         ); // Substitua pelo caminho real da imagem do botão
-        this.load.tilemapTiledJSON(
-            "mapa",
-            "./phaser-3.86.0/map-professor-att.json"
-        );
+        this.load.tilemapTiledJSON("mapa", "./map-professor-att.json");
         this.load.image(
             "CFS1",
-            "./phaser-3.86.0/assets/map_professor/Classroom_First_Spritesheet_1.png"
+            "./assets/map_professor/Classroom_First_Spritesheet_1.png"
         );
         this.load.image(
             "AcabouTempo",
-            "./phaser-3.86.0/src/img/conteudo/Background/acaboutempo.png"
+            "./src/img/conteudo/Background/acaboutempo.png"
         );
         this.load.image(
             "CFS6",
-            "./phaser-3.86.0/assets/map_professor/Classroom_First_Spritesheet_6.png"
+            "./assets/map_professor/Classroom_First_Spritesheet_6.png"
         );
         this.load.image(
             "CPFSc",
-            "./phaser-3.86.0/assets/map_professor/Classroom_PropsFirst_Spritesheet-cop.png"
+            "./assets/map_professor/Classroom_PropsFirst_Spritesheet-cop.png"
         );
         this.load.image(
             "CPSP4",
-            "./phaser-3.86.0/assets/map_professor/ClassroomPropsSecondSpritesheet4.png"
+            "./assets/map_professor/ClassroomPropsSecondSpritesheet4.png"
         );
         this.load.image(
             "CSS7",
-            "./phaser-3.86.0/assets/map_professor/ClassroomSecondSpritesheet7.png"
+            "./assets/map_professor/ClassroomSecondSpritesheet7.png"
         );
         this.load.image(
             "CSSC",
-            "./phaser-3.86.0/assets/map_professor/ClassroomSecond_Spritesheet-cop.png"
+            "./assets/map_professor/ClassroomSecond_Spritesheet-cop.png"
         );
         this.load.image(
             "POFS4",
-            "./phaser-3.86.0/assets/map_professor/PrincipalOfficeSecondSpritesheet4.png"
+            "./assets/map_professor/PrincipalOfficeSecondSpritesheet4.png"
         );
         this.load.image(
             "POSS4",
-            "./phaser-3.86.0/assets/map_professor/strokespritesheet20125.png"
+            "./assets/map_professor/strokespritesheet20125.png"
         );
         this.load.image(
             "WFD5",
-            "./phaser-3.86.0/assets/map_professor/Wallfloordoorw_First_Spritesheet_5.png"
+            "./assets/map_professor/Wallfloordoorw_First_Spritesheet_5.png"
         );
         this.load.image(
             "SPS",
-            "./phaser-3.86.0/assets/map_professor/strokespritesheet20121.png"
+            "./assets/map_professor/strokespritesheet20121.png"
         );
         this.load.spritesheet(
             "BN",
-            "./phaser-3.86.0/src/img/conteudo/PERSONAGEM/george_0.png",
+            "./assets/img/conteudo/PERSONAGEM/george_0.png",
             {
                 frameWidth: 92, // Largura de cada quadro
                 frameHeight: 92, // Altura de cada quadro
