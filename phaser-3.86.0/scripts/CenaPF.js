@@ -10,43 +10,43 @@ class CenaPF extends Phaser.Scene {
         this.load.tilemapTiledJSON("mapa", "./map-professor-att.json");
         this.load.image(
             "CFS1",
-            "./phaser-3.86.0/assets/map_professor/Classroom_First_Spritesheet_1.png"
+            "./assets/map_professor/Classroom_First_Spritesheet_1.png"
         );
         this.load.image(
             "CFS6",
-            "./phaser-3.86.0/assets/map_professor/Classroom_First_Spritesheet_6.png"
+            "./assets/map_professor/Classroom_First_Spritesheet_6.png"
         );
         this.load.image(
             "CPFSc",
-            "./phaser-3.86.0/assets/map_professor/Classroom_PropsFirst_Spritesheet-cop.png"
+            "./assets/map_professor/Classroom_PropsFirst_Spritesheet-cop.png"
         );
         this.load.image(
             "CPSP4",
-            "./phaser-3.86.0/assets/map_professor/ClassroomPropsSecondSpritesheet4.png"
+            "./assets/map_professor/ClassroomPropsSecondSpritesheet4.png"
         );
         this.load.image(
             "CSS7",
-            "./phaser-3.86.0/assets/map_professor/ClassroomSecondSpritesheet7.png"
+            "./assets/map_professor/ClassroomSecondSpritesheet7.png"
         );
         this.load.image(
             "CSSC",
-            "./phaser-3.86.0/assets/map_professor/ClassroomSecond_Spritesheet-cop.png"
+            "./assets/map_professor/ClassroomSecond_Spritesheet-cop.png"
         );
         this.load.image(
             "POFS4",
-            "./phaser-3.86.0/assets/map_professor/PrincipalOfficeSecondSpritesheet4.png"
+            "./assets/map_professor/PrincipalOfficeSecondSpritesheet4.png"
         );
         this.load.image(
             "POSS4",
-            "./phaser-3.86.0/assets/map_professor/strokespritesheet20125.png"
+            "./assets/map_professor/strokespritesheet20125.png"
         );
         this.load.image(
             "WFD5",
-            "./phaser-3.86.0/assets/map_professor/Wallfloordoorw_First_Spritesheet_5.png"
+            "./assets/map_professor/Wallfloordoorw_First_Spritesheet_5.png"
         );
         this.load.image(
             "SPS",
-            "./phaser-3.86.0/assets/map_professor/strokespritesheet20121.png"
+            "./assets/map_professor/strokespritesheet20121.png"
         );
         this.load.spritesheet(
             "BN",
