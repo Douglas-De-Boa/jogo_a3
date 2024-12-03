@@ -8,55 +8,55 @@ class CenaPF extends Phaser.Scene {
         // Substitua pelo caminho real da imagem do botão
         this.load.image(
             "botaoplay",
-            "./phaser-3.86.0/src/img/conteudo/BOTÃO/playjg.png"
+            "/phaser-3.86.0/src/img/conteudo/BOTÃO/playjg.png"
         ); // Substitua pelo caminho real da imagem do botão
         this.load.tilemapTiledJSON(
             "mapa",
-            "./phaser-3.86.0/map-professor-att.json"
+            "/phaser-3.86.0/map-professor-att.json"
         );
         this.load.image(
             "CFS1",
-            "./phaser-3.86.0/assets/map_professor/Classroom_First_Spritesheet_1.png"
+            "/phaser-3.86.0/assets/map_professor/Classroom_First_Spritesheet_1.png"
         );
         this.load.image(
             "CFS6",
-            "./phaser-3.86.0/assets/map_professor/Classroom_First_Spritesheet_6.png"
+            "/phaser-3.86.0/assets/map_professor/Classroom_First_Spritesheet_6.png"
         );
         this.load.image(
             "CPFSc",
-            "./phaser-3.86.0/assets/map_professor/Classroom_PropsFirst_Spritesheet-cop.png"
+            "/phaser-3.86.0/assets/map_professor/Classroom_PropsFirst_Spritesheet-cop.png"
         );
         this.load.image(
             "CPSP4",
-            "./phaser-3.86.0/assets/map_professor/ClassroomPropsSecondSpritesheet4.png"
+            "/phaser-3.86.0/assets/map_professor/ClassroomPropsSecondSpritesheet4.png"
         );
         this.load.image(
             "CSS7",
-            "./phaser-3.86.0/assets/map_professor/ClassroomSecondSpritesheet7.png"
+            "/phaser-3.86.0/assets/map_professor/ClassroomSecondSpritesheet7.png"
         );
         this.load.image(
             "CSSC",
-            "./phaser-3.86.0/assets/map_professor/ClassroomSecond_Spritesheet-cop.png"
+            "/phaser-3.86.0/assets/map_professor/ClassroomSecond_Spritesheet-cop.png"
         );
         this.load.image(
             "POFS4",
-            "./phaser-3.86.0/assets/map_professor/PrincipalOfficeSecondSpritesheet4.png"
+            "/phaser-3.86.0/assets/map_professor/PrincipalOfficeSecondSpritesheet4.png"
         );
         this.load.image(
             "POSS4",
-            "./phaser-3.86.0/assets/map_professor/strokespritesheet20125.png"
+            "/phaser-3.86.0/assets/map_professor/strokespritesheet20125.png"
         );
         this.load.image(
             "WFD5",
-            "./phaser-3.86.0/assets/map_professor/Wallfloordoorw_First_Spritesheet_5.png"
+            "/phaser-3.86.0/assets/map_professor/Wallfloordoorw_First_Spritesheet_5.png"
         );
         this.load.image(
             "SPS",
-            "./phaser-3.86.0/assets/map_professor/strokespritesheet20121.png"
+            "/phaser-3.86.0/assets/map_professor/strokespritesheet20121.png"
         );
         this.load.spritesheet(
             "BN",
-            "./phaser-3.86.0/src/img/conteudo/PERSONAGEM/george_0.png",
+            "/phaser-3.86.0/src/img/conteudo/PERSONAGEM/george_0.png",
             {
                 frameWidth: 92, // Largura de cada quadro
                 frameHeight: 92, // Altura de cada quadro

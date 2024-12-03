@@ -6,11 +6,11 @@ class MenuState extends Phaser.Scene {
     preload() {
         this.load.image(
             "bg",
-            "./phaser-3.86.0/src/img/conteudo/Background/back1.png"
+            "/phaser-3.86.0/src/img/conteudo/Background/back1.png"
         );
         this.load.image(
             "playButton",
-            "./phaser-3.86.0/src/img/conteudo/BOTÃO/BOTÃO_PLAY.png"
+            "/phaser-3.86.0/src/img/conteudo/BOTÃO/BOTÃO_PLAY.png"
         );
     }
 

@@ -6,11 +6,11 @@ class Cena1 extends Phaser.Scene {
     preload() {
         this.load.image(
             "bgC1",
-            "./phaser-3.86.0/src/img/conteudo/Background/back2.png"
+            "/phaser-3.86.0/src/img/conteudo/Background/back2.png"
         );
         this.load.image(
             "bPF",
-            "./phaser-3.86.0/src/img/conteudo/BOTÃO/professor.png"
+            "/phaser-3.86.0/src/img/conteudo/BOTÃO/professor.png"
         );
     }
 
